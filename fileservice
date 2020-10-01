@@ -1,0 +1,2 @@
+#List of file types in spezific Directory
+Get-Childitem "$path" -Recurse | Select-Object PSParentPath,Extension -Unique
